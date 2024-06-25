@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title> AluraGeek </title>
+    </head>
+<body>
+
+    <!--INICIA HEADER-->
+    <header class="header">
+        <div class="content_header">
+            <div class="content_header--title">
+                <img src="./images/logo.png">
+                <p>AluraGeek</p>
+            </div>
+        </div>
+    </header>
+    <!--TERMINA HEADER-->
+
+
+    <main class="main_container">
+
+        <!--Mis Productos-->
+        <section class="section_products">
+            <div class="section_products--title">
+                <h1>Mis Productos:</h1>
+            </div>
+            
+            <div data-product class="products_container">
+
+                <!--Este es el container del producto maqueta-->
+                <!--
+                <div class="card">
+                    <div class="img-container">
+                            <img src="http://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-0.webp" alt="img">
+                    </div>
+
+                    <div class="card-container--info">
+                            <p>Dard Vader</p>
+                            <div class="card-container--value">
+                                <p>$ 20</p>
+                                <button class="delete-button" data-id="${id}">
+                                    <img src="./images/delete.png" alt="Eliminar">
+                                </button>
+                            </div>
+                    </div>
+                </div>
+                -->
+                 <!--Termina el producto Faken para la DB-->
+
+                <!--    
+                <div class="card">
+                    <div class="img-container">
+                        <img src="http://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-0.webp" alt="img">
+                    </div>
+
+                    <div class="card-container--info">
+                        <p>Dard Vader</p>
+                        <div class="card-container--value">
+                            <p>$ 20</p>
+                            <button class="delete-button" data-id="${id}">
+                                <img src="./images/delete.png" alt="Eliminar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="card">
+                    <div class="img-container">
+                        <img src="http://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-0.webp" alt="img">
+                    </div>
+
+                    <div class="card-container--info">
+                        <p>Dard Vader</p>
+                        <div class="card-container--value">
+                            <p>$ 20</p>
+                            <button class="delete-button" data-id="${id}">
+                                <img src="./images/delete.png" alt="Eliminar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="img-container">
+                        <img src="http://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-0.webp" alt="img">
+                    </div>
+
+                    <div class="card-container--info">
+                        <p>Dard Vader</p>
+                        <div class="card-container--value">
+                            <p>$ 20</p>
+                            <button class="delete-button" data-id="${id}">
+                                <img src="./images/delete.png" alt="Eliminar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-container">
+                        <img src="http://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-0.webp" alt="img">
+                    </div>
+
+                    <div class="card-container--info">
+                        <p>Dard Vader</p>
+                        <div class="card-container--value">
+                            <p>$ 20</p>
+                            <button class="delete-button" data-id="${id}">
+                                <img src="./images/delete.png" alt="Eliminar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                -->
+                <!--Termina el producto Faken-->
+
+            </div>
+        </section>
+
+        <!--FORM Agregar Producto-->
+        <section class="section_form">
+            <div class="content_form--title">
+                <div class="form_title">
+                    <h1>Agregar Producto:</h1>
+                </div>
+                
+                <div class="div_container--form">
+                    <form class="form_container" data-form>
+                        <input class="dataText" data-name placeholder="nombre..." type="text">
+                        <input class="dataText" data-price placeholder="precio..." type="text">
+                        <input class="dataText" data-image placeholder="imagen..." type="text">
+            
+                        <div class="button-container">
+                            <button type="submit" class="button-submit" id="button">Enviar</button>
+                            <button type="reset" class="button-clear" id="button">Borrar</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+        
+
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer_container">
+        <div class="content_footer">
+            <div class="content_footer--title">
+                <img src="./images/logo.png">
+                <p>AluraGeek</p>
+            </div>
+            <div class="content_footer--copyright">
+                <div class="footer_copyright">
+                    <p>Desarrollado por Salvador</p>
+                    <p>ALURA LATAM 2024</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    
+
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>

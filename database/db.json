@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "001A",
+      "name": "Carro Toy",
+      "price": "550",
+      "image": "https://elpasteleroloco.w3spaces.com/img/foto_car.png"
+    },
+    {
+      "id": "002B",
+      "name": "Celular",
+      "price": "900",
+      "image": "https://elpasteleroloco.w3spaces.com/img/foto_celular.png"
+    },
+    {
+      "id": "003C",
+      "name": "R2D2 ST",
+      "price": "350",
+      "image": "https://elpasteleroloco.w3spaces.com/img/foto_r2d2.png"
+    },
+    {
+      "id": "004D",
+      "name": "Robot",
+      "price": "780",
+      "image": "https://elpasteleroloco.w3spaces.com/img/foto_robot.png"
+    },
+    {
+      "id": "005E",
+      "name": "StormTrooper",
+      "price": "120",
+      "image": "https://elpasteleroloco.w3spaces.com/img/foto_starwars.png"
+    },
+    {
+      "id": "006F",
+      "name": "Taza Custom",
+      "price": "80",
+      "image": "https://elpasteleroloco.w3spaces.com/img/foto_taza.png"
+    }
+  ]
+}

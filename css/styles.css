@@ -1,0 +1,383 @@
+/*=============================*/
+/*========== ESTILOS HEADER =========*/
+/*=============================*/
+
+.header{
+    width: 100%;
+    background-color: #5300c8;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_header{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.content_header--title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+/*=============================*/
+/*========== ESTILOS MAIN CONTENT =========*/
+/*=============================*/
+
+.main_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid orangered; */
+    justify-content: space-between;
+}
+
+.section_products{
+    width: 50%;
+    /*border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_products--title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section_products--title h1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+.products_container{
+    display: flex;
+    width: 100%;
+    /*border: 3px solid green; */
+    overflow-y: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+/*=============================*/
+/*========== ESTILOS CARD CONTENT =========*/
+/*=============================*/
+
+.card {
+    background-color: #5300c8;
+    color: #FFF;
+    width: 220px;
+    /*width: calc(100%/4);*/
+    padding: 10px;
+
+    border-radius: 5px;
+    /*border: 3px solid #000; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.img-container{
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4%;
+    /*border: 3px solid #151414; */
+}
+
+.img-container img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-container--info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container--info  p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 12px;
+}
+
+.card-container--value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-button{
+    display: flex;
+    justify-content: center;
+    background-color: #5300c8;
+    border:none !important;
+    width: 28px;
+}
+
+.delete-button img{
+    width: 25px;
+
+}
+
+
+
+
+
+
+
+/*=============================*/
+/*========== ESTILOS FORM CONTENT =========*/
+/*=============================*/
+
+.section_form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /*border: 5px solid rgb(155, 13, 124); */
+}
+
+.content_form--title{
+    width: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+}
+
+.form_title{
+    display: flex;
+    justify-content: center;
+}
+.content_form--title .form_title h1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+.div_container--form{
+    display: flex;
+    width: 100%;
+    /*border: 6px solid violet; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form_container{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    width:100%; /*470px*/
+    height:450px; /*450px*/
+    /*border: 1px solid rgb(32, 22, 128); */
+}
+
+input .dataText{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #03318c;
+    opacity: 1;
+    font-size: 16px;
+}
+
+
+
+input{
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #03318c; 
+    gap: 0px;
+    width: 80%;
+    height: 30px;
+    margin:auto;
+}
+
+button{
+    outline: none;
+    
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-submit, .button-clear{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #00133a;
+}
+
+.button-submit{
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color:  #03318c;
+    color: #FFF;
+    outline: none;
+    border:none !important;
+}
+
+.button-clear{
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color:  #ffffff;
+    color: #03318c;
+    border: 2px solid #03318c; 
+}
+
+
+
+
+
+
+
+/*=============================*/
+/*========== ESTILOS FOOTER CONTENT =========*/
+/*=============================*/
+
+.footer_container{
+    margin-top: 25px;
+    width: 100%;
+    background-color: #5300c8;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content_footer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*border: 1px solid red;*/
+}
+
+.content_footer--title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid rgb(8, 136, 104);*/
+}
+
+.content_footer--title img{
+    width: 110px;
+}
+
+
+.content_footer--copyright{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer_copyright{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_copyright p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 24px;
+}
+
+.content_footer--title p{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+/*=============================*/
+/*========== ESTILOS MEDIA QUERIES =========*/
+/*=============================*/
+
+
+@media (max-width: 768px) {
+
+    .main_container{
+        flex-direction: column;
+    }
+
+    .section_products{
+        width: 100%;
+    }
+
+    .section_form{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
