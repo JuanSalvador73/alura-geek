@@ -1,5 +1,5 @@
 const productList = ()=>{
-    return fetch("http://localhost:3000/products")
+    return fetch("https://my-json-server.typicode.com/JuanSalvador73/alura-geek-api/products")
         .then((res)=>res.json())
         .catch((err)=> console.assert.log(err));
 };
@@ -7,7 +7,7 @@ const productList = ()=>{
 
 // CREATE PRODUCTS
 const createProducts = (name, price, image)=>{
-    return fetch("http://localhost:3000/products", {
+    return fetch("https://my-json-server.typicode.com/JuanSalvador73/alura-geek-api/products", {
         method: "POST",
         headers: {
             "Content-Type": "applications/json",
@@ -22,7 +22,7 @@ const createProducts = (name, price, image)=>{
 
 // DELETE PRODUCTS
 const deleteProducto = (id) => {
-    return fetch(`http://localhost:3000/products/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/JuanSalvador73/alura-geek-api/products/${id}`, {
         method: "DELETE",
     }).catch((err) => console.log(err));
 }; 
@@ -34,3 +34,16 @@ export const servicesProducts = {
     createProducts,
     deleteProducto,
 }
+
+/*
+
+1 linea:
+http://localhost:3000/products
+
+2 linea:
+http://localhost:3000/products
+
+3 linea:
+http://localhost:3000/products/
+
+*/
